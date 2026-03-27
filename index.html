@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diwesh Rai — Full Stack Engineer</title>
+  <meta name="description"
+    content="Portfolio of Diwesh Rai — Experienced Full Stack Engineer specializing in Java, Spring Boot, React.js, microservices, and AWS cloud-native solutions." />
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Portfolio CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════════
+     HEADER / NAV
+════════════════════════════════════════════ -->
+  <header id="header">
+    <div class="container">
+      <nav class="nav-inner">
+        <a href="#about" class="nav-brand">DIWESH RAI</a>
+
+        <ul class="nav-links">
+          <li><a href="#about" class="active">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+          <a href="mailto:ddiweshrai@gmail.com" class="btn btn-outline" style="padding:9px 18px;font-size:14px;">
+            <i class="fa-solid fa-envelope"></i> Email Me
+          </a>
+          <a href="https://www.linkedin.com/in/diwesh-rai/" target="_blank" rel="noopener" class="btn btn-linkedin">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn Profile
+          </a>
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#about" onclick="closeMobile()">About</a>
+      <a href="#experience" onclick="closeMobile()">Experience</a>
+      <a href="#projects" onclick="closeMobile()">Projects</a>
+      <a href="#skills" onclick="closeMobile()">Skills</a>
+      <a href="#contact" onclick="closeMobile()">Contact</a>
+      <a href="https://www.linkedin.com/in/diwesh-rai/" target="_blank" class="btn btn-linkedin"
+        style="margin-top:8px;justify-content:center;">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn Profile
+      </a>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════
+     ABOUT / HERO
+════════════════════════════════════════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Left -->
+        <div class="about-left" data-aos="fade-right" data-aos-duration="800">
+          <p class="greeting"><span class="wave">👋</span> Hey there, I'm</p>
+
+          <h1>Diwesh<br /><span class="highlight">Rai</span></h1>
+
+          <p class="role">Full Stack Java Developer | 3+ Years of Experience</p>
+          <p class="summary">
+            Results-driven Full Stack Engineer with 3+ years of experience designing and scaling
+            high-performance, distributed systems. Strong expertise in <strong>Java</strong>,
+            <strong>Spring Boot</strong>, and <strong>microservices architecture</strong>, with a proven track record of
+            building
+            resilient, production-grade backend systems.
+
+            Experienced in developing modern frontend applications using <strong>React.js</strong> and delivering
+            end-to-end solutions across the stack. Skilled in building and deploying cloud-native systems on
+            <strong>AWS</strong>, with a focus on performance optimization, scalability, and clean architecture.
+
+            Recently leading and contributing to <strong>Agentic AI systems</strong>, building intelligent,
+            autonomous workflows using LLMs, RAG pipelines, and real-time integrations to enhance business automation
+            and decision-making.
+          </p>
+
+          <div class="about-actions">
+            <a href="assets/Diwesh_Rai_Resume.pdf" target="_blank" rel="noopener" class="btn btn-primary">
+              <i class="fa-solid fa-file-pdf"></i> View Resume
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-solid fa-paper-plane"></i> Get In Touch
+            </a>
+          </div>
+
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">10+</span>
+              <span class="stat-label">Projects Shipped</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right -->
+        <div class="about-right" data-aos="fade-left" data-aos-duration="800" data-aos-delay="150">
+          <div class="profile-wrapper">
+            <div class="profile-ring"></div>
+            <div class="profile-img-wrap">
+              <img src="assets/logos/profile-prof.jpeg" alt="Diwesh Rai — Full Stack Engineer" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+     EXPERIENCE
+════════════════════════════════════════════ -->
+  <section id="experience">
+    <div class="container">
+      <div data-aos="fade-up">
+        <span class="section-label"><i class="fa-solid fa-briefcase"></i> Career</span>
+        <h2 class="section-title">Work Experience</h2>
+        <p class="section-subtitle">My professional journey building scalable software across the stack.</p>
+      </div>
+
+      <div class="exp-list">
+
+        <!-- Entry 1 -->
+        <div class="exp-card" data-aos="fade-up" data-aos-delay="50">
+          <a href="https://www.nexdew.com" target="_blank" rel="noopener" class="exp-logo"
+            title="Nexdew Technologies"><img src="assets/nexdew.jpeg" alt="Nexdew Technologies"></a>
+          <div class="exp-content">
+            <div class="exp-header">
+              <div>
+                <div class="exp-title">Full Stack Java Developer</div>
+                <div class="exp-company">Nexdew Technologies · Full-time</div>
+              </div>
+              <div class="exp-meta">
+                <span class="exp-period"><i class="fa-regular fa-calendar"></i> Jan 2023 – Present</span>
+                <span class="exp-type">Current</span>
+              </div>
+            </div>
+            <ul class="exp-bullets">
+              <li>Designed and developed scalable RESTful microservices using Spring Boot and built responsive React.js
+                dashboards, improving performance and user experience across applications.</li>
+
+              <li>Implemented event-driven solutions and optimized backend systems using caching and efficient database
+                design, reducing API latency and improving system reliability.</li>
+
+              <li>Led the development of in-house Agentic AI projects, driving automation and intelligent workflows to
+                enhance productivity and decision-making processes.</li>
+
+              <li>Built and deployed cloud-native applications on AWS (EC2, S3, Lambda), ensuring high availability and
+                scalability of services.</li>
+
+              <li>Developed and maintained CI/CD pipelines using Jenkins and Git-based workflows, enabling faster and
+                reliable releases.</li>
+
+              <li>Collaborated in Agile teams, contributing to end-to-end development, system design discussions, and
+                continuous improvement of application performance.</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">React.js</span>
+              <span class="tag">Redux</span>
+              <span class="tag">Microservices</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">AWS EC2</span>
+              <span class="tag">AWS S3</span>
+              <span class="tag">AWS Lambda</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Jenkins</span>
+              <span class="tag">CI/CD</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Liquibase</span>
+              <span class="tag">Git</span>
+              <span class="tag">JUnit</span>
+              <span class="tag">Mockito</span>
+              <span class="tag">Event-Driven</span>
+              <span class="tag">Caching</span>
+              <span class="tag">Agentic AI</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+     PROJECTS
+════════════════════════════════════════════ -->
+  <section id="projects">
+    <div class="container">
+      <div data-aos="fade-up">
+        <span class="section-label"><i class="fa-solid fa-code"></i> Work</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">A selection of things I've built — from AI-powered systems to distributed platforms.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: TVG — visual LEFT -->
+        <div class="project-card" data-aos="fade-right" data-aos-duration="700">
+          <a href="https://www.very.co.uk/" target="_blank" rel="noopener" class="project-visual"
+            style="background: linear-gradient(135deg, #f97316 0%, #fb923c 100%); color: #fff;">
+            <div class="project-visual-icon"><img src="assets/logos/Very_Logo.png" alt=""></div>
+            <!-- <div class="project-visual-label">Enterprise</div> -->
+            <span class="project-visual-link">
+              <i class="fa-solid fa-globe"></i> Visit Site
+            </span>
+          </a>
+          <div class="project-content">
+            <div class="project-tag-row">
+              <span class="project-number">Project 01</span>
+              <div class="project-links">
+                <a href="https://www.very.co.uk/" target="_blank" class="project-link" title="Website"><i
+                    class="fa-solid fa-globe"></i></a>
+              </div>
+            </div>
+            <div class="project-name">TVG Backoffice Platform</div>
+            <p class="project-desc">Enterprise back-office system built with microservices, focusing on performance,
+              scalability, and secure cross-service integrations.</p>
+            <ul class="project-bullets">
+              <li>Designed centralized AWS Lambda solution for token management, eliminating redundant processing across
+                services.</li>
+
+              <li>Implemented caching and optimized APIs, significantly improving response time and system efficiency.
+              </li>
+
+              <li>Integrated Microsoft Azure SSO and built ETL pipelines for bulk data processing.</li>
+
+              <li>Developed and maintained scalable REST APIs using Spring Boot, ensuring seamless communication between
+                multiple microservices.</li>
+
+              <li>Improved database performance through optimized queries, indexing strategies, and reduced redundant
+                data fetch operations.</li>
+
+              <li>Collaborated in designing microservice architecture, ensuring loose coupling and high system
+                reliability.</li>
+
+              <li>Implemented robust error handling, logging, and monitoring strategies to enhance system observability
+                and debugging.</li>
+
+              <li>Worked on CI/CD pipelines to automate build, testing, and deployment processes, improving release
+                efficiency.</li>
+
+              <li>Contributed to API documentation and cross-team integrations, ensuring smooth onboarding for dependent
+                services.</li>
+
+              <li>Actively participated in sprint planning, debugging production issues, and delivering enhancements in
+                an Agile environment.</li>
+            </ul>
+            <div class="project-footer">
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">React.js</span>
+              <span class="tag">Microservices</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">AWS Lambda</span>
+              <span class="tag">AWS EC2</span>
+              <span class="tag">AWS S3</span>
+              <span class="tag">Azure SSO</span>
+              <span class="tag">EventBridge</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Caching</span>
+              <span class="tag">Liquibase</span>
+              <span class="tag">CI/CD</span>
+              <span class="tag">Jenkins</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: CloudSynApps — visual RIGHT (reverse) -->
+        <div class="project-card reverse" data-aos="fade-left" data-aos-duration="700">
+          <div class="project-content">
+            <div class="project-tag-row">
+              <span class="project-number">Project 02</span>
+              <div class="project-links">
+                <a href="https://www.cloudsynapps.com/" target="_blank" class="project-link" title="Website"><i
+                    class="fa-solid fa-globe"></i></a>
+              </div>
+            </div>
+            <div class="project-name">CloudSynApps Timesheet System</div>
+            <p class="project-desc">
+              Full-stack timesheet application with role-based access control, rebuilt from a legacy system into a
+              modern,
+              scalable Spring Boot + React.js architecture with improved performance and user experience.
+            </p>
+
+            <ul class="project-bullets">
+              <li>Re-architected legacy Thymeleaf application into a modern React.js + Spring Boot system, improving
+                scalability and maintainability.</li>
+
+              <li>Designed and developed end-to-end features including employee and manager portals with role-based
+                workflows.</li>
+
+              <li>Implemented secure authentication and authorization using Spring Security with role-based access
+                control (RBAC).</li>
+
+              <li>Developed batch processing modules for bulk data uploads, improving efficiency of timesheet
+                operations.</li>
+
+              <li>Built automated email scheduling and notification system for reminders and approval workflows.</li>
+
+              <li>Optimized database queries and schema design in PostgreSQL to improve performance and reduce response
+                time.</li>
+
+              <li>Designed RESTful APIs for seamless frontend-backend integration and scalable service communication.
+              </li>
+
+              <li>Owned complete deployment lifecycle, ensuring smooth production release and post-deployment
+                enhancements.</li>
+            </ul>
+            <div class="project-footer">
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">React.js</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">Spring Security</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">RBAC</span>
+              <span class="tag">Batch Processing</span>
+              <span class="tag">Email Scheduling</span>
+            </div>
+          </div>
+          <a href="https://www.cloudsynapps.com/" target="_blank" rel="noopener" class="project-visual"
+            style="background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%); color: #fff;">
+            <div class="project-visual-icon"><img src="assets/logos/cloud-synapps.jpg" alt=""></div>
+            <!-- <div class="project-visual-label">SaaS Platform</div> -->
+            <span class="project-visual-link">
+              <i class="fa-solid fa-globe"></i> Visit Site
+            </span>
+          </a>
+        </div>
+
+        <!-- Project 3: Boubyan — visual LEFT -->
+        <div class="project-card" data-aos="fade-right" data-aos-duration="700">
+          <a href="https://boubyan.bankboubyan.com/en/" target="_blank" rel="noopener" class="project-visual"
+            style="background: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%); color: #fff;">
+            <div class="project-visual-icon"><img src="assets/logos/bob.png" alt="🏃"></div>
+            <!-- <div class="project-visual-label">Fintech</div> -->
+            <span class="project-visual-link">
+              <i class="fa-solid fa-globe"></i> Visit Site
+            </span>
+          </a>
+          <div class="project-content">
+            <div class="project-tag-row">
+              <span class="project-number">Project 03</span>
+              <div class="project-links">
+                <a href="https://boubyan.bankboubyan.com/en/" target="_blank" class="project-link" title="Website"><i
+                    class="fa-solid fa-globe"></i></a>
+              </div>
+            </div>
+            <div class="project-name">Boubyan Steps Platform</div>
+            <p class="project-desc">
+              Gamified fitness and social impact platform where users’ daily steps are converted into reward points,
+              which are further translated into monetary contributions donated to charitable causes supporting medical
+              treatments.
+            </p>
+            <ul class="project-bullets">
+              <li>Built complete frontend using React.js and integrated with Spring Boot backend APIs for seamless
+                real-time data flow.</li>
+
+              <li>Developed core business logic to convert user steps into points and further into monetary value for
+                charity donations.</li>
+
+              <li>Implemented real-time leaderboard and scoring engine to drive user engagement and competition.</li>
+
+              <li>Optimized backend performance using API caching and efficient indexed database queries.</li>
+
+              <li>Designed scalable REST APIs to handle continuous activity tracking and synchronization.</li>
+
+              <li>Enhanced user experience with smooth UI interactions and efficient state management.</li>
+            </ul>
+            <div class="project-footer">
+              <span class="tag">React.js</span>
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Caching</span>
+              <span class="tag">Leaderboard System</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: AI Email Hub — visual RIGHT (reverse) -->
+        <div class="project-card reverse" data-aos="fade-left" data-aos-duration="700">
+          <div class="project-content">
+            <div class="project-tag-row">
+              <span class="project-number">Project 04</span>
+              <div class="project-links">
+                <a href="https://github.com/diweshrai" target="_blank" class="project-link" title="GitHub"><i
+                    class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-name">AI Email Intelligence Hub</div>
+            <p class="project-desc">An AI-powered email management system with RAG-based querying, LLM-generated
+              summaries, and a voice agent for hands-free inbox interaction.</p>
+            <ul class="project-bullets">
+              <li>Integrated RAG pipeline using Qdrant vector DB + LLM for intelligent email summarization.</li>
+              <li>Synced Gmail/Outlook emails to MongoDB and built semantic search over the corpus.</li>
+              <li>Implemented voice agent "Lucy" using real-time audio transcription via Whisper.</li>
+            </ul>
+            <div class="project-footer">
+              <span class="tag">Python</span><span class="tag">RAG</span><span class="tag">Qdrant</span><span
+                class="tag">MongoDB</span><span class="tag">FastAPI</span><span class="tag">LLM</span>
+            </div>
+          </div>
+          <a href="https://github.com/diweshrai" target="_blank" rel="noopener" class="project-visual"
+            style="background: linear-gradient(135deg, #3b5bdb 0%, #6c63ff 100%); color: #fff;">
+            <div class="project-visual-icon">🧠</div>
+            <div class="project-visual-label">Agentic AI</div>
+            <span class="project-visual-link">
+              <i class="fa-brands fa-github"></i> View Code
+            </span>
+          </a>
+        </div>
+
+        <!-- Project 5: AI Meeting — visual LEFT -->
+        <div class="project-card" data-aos="fade-right" data-aos-duration="700">
+          <a href="https://github.com/diweshrai" target="_blank" rel="noopener" class="project-visual"
+            style="background: linear-gradient(135deg, #059669 0%, #10b981 100%); color: #fff;">
+            <div class="project-visual-icon">📞</div>
+            <div class="project-visual-label">AI Voice</div>
+            <span class="project-visual-link">
+              <i class="fa-brands fa-github"></i> View Code
+            </span>
+          </a>
+          <div class="project-content">
+            <div class="project-tag-row">
+              <span class="project-number">Project 05</span>
+              <div class="project-links">
+                <a href="https://github.com/diweshrai" target="_blank" class="project-link" title="GitHub"><i
+                    class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-name">AI Meeting &amp; Call Intelligence</div>
+            <p class="project-desc">End-to-end call intelligence platform with real-time transcription, an AI interview
+              assistant, and automated Google Meet scheduling via OAuth2.</p>
+            <ul class="project-bullets">
+              <li>Recorded and transcribed calls using Whisper, stored transcripts in MongoDB + Qdrant vector DB.</li>
+              <li>Built Nova AI voice assistant with mute controls and contextual scheduling capabilities.</li>
+              <li>Integrated Google Calendar OAuth2 for fully automated Google Meet link generation.</li>
+            </ul>
+            <div class="project-footer">
+              <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Whisper</span><span
+                class="tag">Google Meet API</span><span class="tag">React.js</span><span class="tag">Qdrant</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+     SKILLS
+════════════════════════════════════════════ -->
+  <section id="skills">
+    <div class="container">
+      <div data-aos="fade-up">
+        <span class="section-label"><i class="fa-solid fa-layer-group"></i> Tech Stack</span>
+        <h2 class="section-title">Skills & Technologies</h2>
+        <p class="section-subtitle">The tools and technologies I work with every day.</p>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="50">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" style="background:#eef2ff;color:#3b5bdb;">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <span class="skill-cat-title">Languages</span>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip"><span class="chip-icon">☕</span> Java</span>
+            <span class="skill-chip"><span class="chip-icon">🐍</span> Python</span>
+            <span class="skill-chip"><span class="chip-icon">📜</span> JavaScript</span>
+            <span class="skill-chip"><span class="chip-icon">📘</span> TypeScript</span>
+            <span class="skill-chip"><span class="chip-icon">💾</span> SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" style="background:#f0fdf4;color:#16a34a;">
+              <i class="fa-solid fa-cubes"></i>
+            </div>
+            <span class="skill-cat-title">Frameworks & Libraries</span>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip">🌿 Spring Boot</span>
+            <span class="skill-chip">⚛️ React.js</span>
+            <span class="skill-chip">🔒 Spring Security</span>
+            <span class="skill-chip">☁️ Spring Cloud</span>
+            <span class="skill-chip">⚡ FastAPI</span>
+            <span class="skill-chip">🧪 JUnit</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="150">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" style="background:#fff7ed;color:#ea580c;">
+              <i class="fa-brands fa-aws"></i>
+            </div>
+            <span class="skill-cat-title">Cloud & DevOps</span>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip">🟠 AWS EC2</span>
+            <span class="skill-chip">🐳 Docker</span>
+            <span class="skill-chip">⚙️ AWS ECS</span>
+            <span class="skill-chip">🔄 GitHub Actions</span>
+            <span class="skill-chip">📦 AWS S3</span>
+            <span class="skill-chip">🔧 CI/CD</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" style="background:#fdf4ff;color:#9333ea;">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <span class="skill-cat-title">Databases & Messaging</span>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip">🐘 PostgreSQL</span>
+            <span class="skill-chip">🍃 MongoDB</span>
+            <span class="skill-chip">🔴 Redis</span>
+            <span class="skill-chip">📨 Apache Kafka</span>
+            <span class="skill-chip">🗄️ MySQL</span>
+            <span class="skill-chip">🔍 Qdrant</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="250" style="grid-column: 1 / -1;">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" style="background:#fef9c3;color:#ca8a04;">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <span class="skill-cat-title">Agentic AI & LLM</span>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip">🤖 Agentic AI</span>
+            <span class="skill-chip">📚 RAG</span>
+            <span class="skill-chip">🧠 LLM</span>
+            <span class="skill-chip">🟢 OpenAI</span>
+            <span class="skill-chip">💎 Gemini</span>
+            <span class="skill-chip">🦜 LangChain</span>
+            <span class="skill-chip">🕸️ LangGraph</span>
+            <span class="skill-chip">🔍 Vector Search</span>
+            <span class="skill-chip">🐍 Python</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+     CONTACT / FOOTER
+════════════════════════════════════════════ -->
+  <footer id="contact">
+    <div class="container">
+
+      <div class="contact-header" data-aos="fade-up">
+        <span class="section-label"><i class="fa-solid fa-envelope"></i> Let's Connect</span>
+        <h2 class="section-title" style="color:#f1f5f9;">Get In Touch</h2>
+        <p class="section-subtitle">Whether it's a project, opportunity, or just a chat — I'd love to hear from you.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Left: Contact Info -->
+        <div class="contact-left" data-aos="fade-right" data-aos-delay="50">
+          <h3>Contact Information</h3>
+          <div class="contact-items">
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <div class="contact-info-label">Email</div>
+                <div class="contact-info-val">
+                  <a href="mailto:diweshrai@example.com">ddiweshrai@gmail.com</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <div class="contact-info-label">Phone</div>
+                <div class="contact-info-val">+91-9306741451</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <div class="contact-info-label">Location</div>
+                <div class="contact-info-val">India 🇮🇳</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-circle-check"></i></div>
+              <div>
+                <div class="contact-info-label">Availability</div>
+                <div class="contact-info-val">Open to new opportunities - PAN INDIA</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right: Social Links -->
+        <div class="contact-right" data-aos="fade-left" data-aos-delay="50">
+          <h3>Find Me Online</h3>
+          <div class="social-grid">
+
+            <a href="https://github.com/diweshrai" target="_blank" rel="noopener" class="social-card">
+              <span class="social-icon">
+                <i class="fa-brands fa-github" style="font-size:24px;"></i>
+              </span>
+              <div>
+                <div class="social-name">GitHub</div>
+                <div class="social-handle">@diweshrai</div>
+              </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/diwesh-rai/" target="_blank" rel="noopener" class="social-card">
+              <span class="social-icon" style="color:#0a66c2;"><i class="fa-brands fa-linkedin"
+                  style="font-size:24px;"></i></span>
+              <div>
+                <div class="social-name">LinkedIn</div>
+                <div class="social-handle">Diwesh Rai</div>
+              </div>
+            </a>
+
+            <a href="https://youtube.com/@diweshraivlogs" target="_blank" rel="noopener" class="social-card">
+              <span class="social-icon" style="color:#ff0000;"><i class="fa-brands fa-youtube"
+                  style="font-size:24px;"></i></span>
+              <div>
+                <div class="social-name">YouTube</div>
+                <div class="social-handle">@diweshrai</div>
+              </div>
+            </a>
+
+            <a href="https://instagram.com/diweshrai05" target="_blank" rel="noopener" class="social-card">
+              <span class="social-icon">
+                <i class="fa-brands fa-instagram"
+                  style="font-size:24px;background:linear-gradient(45deg,#f9ce34,#ee2a7b,#6228d7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;"></i>
+              </span>
+              <div>
+                <div class="social-name">Instagram</div>
+                <div class="social-handle">@diweshrai</div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bar -->
+      <div class="footer-bar">
+        <p>© 2024 <span>Diwesh Rai</span>. Designed & built with ❤️</p>
+        <a href="#about" class="back-top" title="Back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════
+     SCRIPTS
+════════════════════════════════════════════ -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
