@@ -1,66 +1,17 @@
-# Diwesh Rai — Portfolio Website
+# Diwesh Rai — Portfolio SPA
 
-A clean, premium, light-themed single-page portfolio built with pure HTML, CSS, and JavaScript. No build step required — works instantly on GitHub Pages or Vercel.
+This is my personal portfolio website, designed and built to showcase my professional experience, projects, and technical skills as a Full Stack Engineer.
 
-## 🚀 Quick Start (Local Preview)
-
-```bash
-cd MYPORTFOLIO
-npx serve .
-# Opens at http://localhost:3000
-```
-
-Or simply open `index.html` directly in your browser.
+**🌍 Live Preview:** [https://diweshrai.github.io/Portfolio/](https://diweshrai.github.io/Portfolio/)
 
 ---
 
-## 📁 Project Structure
+## 📑 Sections
 
-```
-MYPORTFOLIO/
-├── index.html           # Main SPA
-├── style.css            # Premium light theme
-├── script.js            # Interactions & animations
-├── assets/
-│   ├── profile.jpg      # Your profile photo
-│   └── Diwesh_Rai_Resume.pdf  # Your resume (replace!)
-└── README.md
-```
+The portfolio consists of the following 5 main sections:
 
----
-
-## ✏️ Personalising the Content
-
-| What to change | Where |
-|---|---|
-| Email, phone, links | `index.html` → `#contact` section |
-| Job history | `index.html` → `#experience` section |
-| Projects | `index.html` → `#projects` section |
-| Profile photo | Replace `assets/profile.jpg` |
-| Resume | Replace `assets/Diwesh_Rai_Resume.pdf` |
-| LinkedIn / GitHub / social URLs | Search for `diweshrai` in `index.html` |
-
----
-
-## 🌐 Deploying
-
-### GitHub Pages
-1. Push this folder to a GitHub repo (e.g., `yourusername.github.io`)
-2. Go to **Settings → Pages → Source → main branch → / (root)**
-3. Your site is live at `https://yourusername.github.io`
-
-### Vercel
-1. Go to [vercel.com](https://vercel.com) → **Add New Project**
-2. Import your GitHub repo
-3. Leave all settings as default (no build command needed)
-4. Click **Deploy** — done! ✅
-
----
-
-## 📦 Libraries Used (CDN — no install)
-
-| Library | Purpose |
-|---|---|
-| [AOS](https://michalsnik.github.io/aos/) | Scroll animations |
-| [Font Awesome 6](https://fontawesome.com/) | Icons |
-| [Google Fonts — Inter + Plus Jakarta Sans](https://fonts.google.com/) | Typography |
+1. **About Me / Hero** — Brief professional introduction, current role, and high-level career statistics.
+2. **Work Experience** — Detailed timeline of my professional roles, companies, and key engineering achievements.
+3. **Featured Projects** — A selection of systems and applications I've built, focusing on scalability, performance, and real-world impact.
+4. **Skills & Technologies** — A categorized overview of the languages, frameworks, cloud technologies, and tools I work with every day.
+5. **Contact / Socials** — Direct links to my GitHub, LinkedIn, other social profiles, and email availability.
