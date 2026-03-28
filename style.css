@@ -48,6 +48,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 body {
@@ -56,6 +57,7 @@ body {
   color: var(--clr-text);
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 a {
@@ -1208,6 +1210,19 @@ a.project-visual:hover .project-visual-link {
 /* ============================================================
    RESPONSIVE
    ============================================================ */
+@media (max-width: 768px) {
+  .btn-linkedin {
+    background: var(--clr-tag);
+    color: var(--clr-primary) !important;
+    box-shadow: 0 4px 16px rgba(10, 102, 194, .4);
+    border-color: var(--clr-primary);
+  }
+
+  .btn-linkedin:hover {
+    background: var(--clr-primary-dark);
+  }
+}
+
 @media (max-width: 1024px) {
   .about-grid {
     grid-template-columns: 1fr;
@@ -1345,4 +1360,45 @@ a.project-visual:hover .project-visual-link {
 ::selection {
   background: rgba(59, 91, 219, .2);
   color: var(--clr-primary);
+}
+
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  .summary {
+    max-width: 100% !important;
+  }
+
+  .about-stats {
+    justify-content: center;
+  }
+
+  .about-right {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+@media (min-width: 366px) and (max-width: 530px) {
+  .about-actions {
+    justify-content: center;
+  }
+
+  .btn {
+    gap: 4px;
+    padding: 12px 20px;
+  }
+}
+
+
+@media (min-width: 0px) and (max-width: 366px) {
+  .about-actions {
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .btn {
+    gap: 8px;
+    padding: 12px 28px;
+  }
 }
